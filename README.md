@@ -24,6 +24,8 @@ Note that parameters which do not have a specified value will be set to undefine
 
 ## Usage
 
+    var toQueryParams = require("string-to-query-params");
+
     toQueryParams('section=blog&id=45');
     // -> {section: 'blog', id: '45'}
     
