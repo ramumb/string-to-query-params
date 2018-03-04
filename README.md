@@ -8,10 +8,10 @@ This is a port of the [PrototypeJS](http://prototypejs.org/) method `toQueryPara
 It parses a URI-like query string and returns an object composed of parameter/value pairs.
 
 `string-to-query-params` is realy targeted at parsing query strings (hence the
-default value of "&" for the separator argument).  For this reason, it does not
+default value of `"&"` for the separator argument).  For this reason, it does not
 consider anything that is either before a question mark (which signals the
-beginning of a query string) or beyond the hash symbol ("#"), and runs
-decodeURIComponent() on each parameter/value pair.
+beginning of a query string) or beyond the hash symbol (`"#"`), and runs
+`decodeURIComponent()` on each parameter/value pair.
 
 `string-to-query-params` also aggregates the values of identical keys into an
 array of values.
