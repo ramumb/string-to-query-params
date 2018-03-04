@@ -20,7 +20,7 @@ Note that parameters which do not have a specified value will be set to undefine
 
 ## Installation
 
-  `npm install try-thesestring-to-query-params`
+  `npm install string-to-query-params`
 
 ## Usage
 
