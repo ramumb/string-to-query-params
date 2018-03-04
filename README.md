@@ -1,6 +1,9 @@
 string-to-query-params(query, separator)
 ========================================
 
+[![Build Status](https://travis-ci.org/ramumb/string-to-query-params.svg?branch=master)](https://travis-ci.org/ramumb/string-to-query-params)
+[![Coverage Status](https://coveralls.io/repos/github/ramumb/string-to-query-params/badge.svg?branch=master)](https://coveralls.io/github/ramumb/string-to-query-params?branch=master)
+
 This is a port of the [PrototypeJS](http://prototypejs.org/) method `toQueryParams`.
 It parses a URI-like query string and returns an object composed of parameter/value pairs.
 
