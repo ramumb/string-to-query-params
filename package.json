@@ -1,0 +1,35 @@
+{
+  "name": "string-to-query-params",
+  "version": "0.1.0",
+  "description": "Parses a URI-like query string and returns an object composed of parameter/value pairs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramumb/string-to-query-params.git"
+  },
+  "keywords": [
+    "query",
+    "search",
+    "string",
+    "str",
+    "parse",
+    "parser",
+    "params",
+    "parameters",
+    "uri",
+    "url"
+  ],
+  "author": "Reginald Mullin <ramumb@yahoo.com> (http://www.reginaldmullin.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramumb/string-to-query-params/issues"
+  },
+  "homepage": "https://github.com/ramumb/string-to-query-params#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
+  }
+}
