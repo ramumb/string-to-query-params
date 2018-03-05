@@ -5,9 +5,11 @@ string-to-query-params(query, separator)
 [![Coverage Status](https://coveralls.io/repos/github/ramumb/string-to-query-params/badge.svg?branch=master)](https://coveralls.io/github/ramumb/string-to-query-params?branch=master)
 
 This is a port of the [PrototypeJS](http://prototypejs.org/) method `toQueryParams`.
-It parses a URI-like query string and returns an object composed of parameter/value pairs.
+It parses a URI-like query string and returns an object composed of parameter/value
+pairs.  There's an inverse of this method called `toQueryString` that's available
+at [object-to-query-string](https://github.com/ramumb/object-to-query-string).
 
-`string-to-query-params` is realy targeted at parsing query strings (hence the
+`string-to-query-params` is really targeted at parsing query strings (hence the
 default value of `"&"` for the separator argument).  For this reason, it does not
 consider anything that is either before a question mark (which signals the
 beginning of a query string) or beyond the hash symbol (`"#"`), and runs
