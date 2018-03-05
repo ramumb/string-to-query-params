@@ -1,6 +1,6 @@
 {
   "name": "string-to-query-params",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Parses a URI-like query string and returns an object composed of parameter/value pairs.",
   "main": "index.js",
   "scripts": {
