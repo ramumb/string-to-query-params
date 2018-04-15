@@ -1,4 +1,4 @@
-string-to-query-params(string, separator)
+string-to-query-params(string)
 ========================================
 
 [![Build Status](https://travis-ci.org/ramumb/string-to-query-params.svg?branch=master)](https://travis-ci.org/ramumb/string-to-query-params)
